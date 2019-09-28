@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the LineageOS trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
+    repo init -u git://github.com/SparXFusion/platform_manifest_twrp_lineageos.git -b twrp-14.1
 
 Then to sync up:
 
@@ -14,4 +14,4 @@ Then to sync up:
 
 Then to build:
 
-     cd <source-dir>; . build/envsetup.sh; lunch cm_<device>-eng; mka recoveryimage
+     cd <source-dir>; . build/envsetup.sh; lunch lineage_i9300-eng; mka recoveryimage
